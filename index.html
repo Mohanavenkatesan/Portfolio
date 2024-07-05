@@ -1,0 +1,411 @@
+<!--
+  Greetings!
+
+  This delightful template has been meticulously crafted and brought to life by Mohanavenkatesan Palaniappan. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+
+<!-- For any inquiries or collaborations reach out to me at mohanpalani2001@gmail.com -->
+
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a software developer and I specialize in creating user-friendly, responsive and accessible websites, creating applications by using .NET framework and also i am having experience in Robotic Process Automation(RPA). Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Mohanavenkatesan's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a software developer and I specialize in creating user-friendly, responsive and accessible websites, creating applications by using .NET framework and also i am having experience in Robotic Process Automation(RPA). Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mohanavenkatesan's Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a software developer and I specialize in creating user-friendly, responsive and accessible websites, creating applications by using .NET framework and also i am having experience in Robotic Process Automation(RPA). Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mohanavenkatesan's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a software developer and I specialize in creating user-friendly, responsive and accessible websites, creating applications by using .NET framework and also i am having experience in Robotic Process Automation(RPA). Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+<!-- Update Mvicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/Mohanavenkatesan.png"
+      type="image/jpg"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Mohanavenkatesan's Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#blog">My projects</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <img class="Mpic" src="assets/images/Mohanavenkatesan.png">
+            <span>Hi, I'm Mohanavenkatesan</span>
+            <span>Software Developer</span>
+          </h1>
+          
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+            A software engineer and interface designer who builds 
+            rich accessible and performant websites and applications.
+            
+          </p>
+
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Hire me</a>
+            <a href="#work" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Selected Work</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Notes Application</h3>
+                <!-- Add small description of your project  -->
+
+                <p class="work-text">Website for Notes Application.</p>
+                <ol class="work-technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ol>
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="#" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                     <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="https://github.com/Mohanavenkatesan"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/Notes Application.webp"
+                  alt="Notes Application"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Quiz Application</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text">
+                  Website for Quiz Application
+                <ol class="work-technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ol>
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="#" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                   <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/Quiz Application.webp"
+                  alt="Quiz Application"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="article">
+        <div class="container">
+          <h2 class="h2" id="blog">My Projects</h2>
+          <div class="article-boxes">
+            <article class="article-box featured-article">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h3">
+                    Drowsiness Detection Using Audio and Video processing in OpenCV
+                  </h3>
+                  <p class="article-text">
+                    If the drowsiness of the driver, can be predicted before driving, it will be very useful to prevent the accidents. 
+                    In this method, there is a solution to detect the drowsiness of the driver, before the driver starts to drive. 
+                    There is system in this method from which the driver got approval for driving. 
+                    The system has two level verification process for the drivers to detect the drowsiness.
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://github.com/Mohanavenkatesan/Drowsiness-Detection-Using-Audio-and-Video-Proceessing" class="link" target="_blank" rel="noopener"
+                    >Explore this project</a
+                  >
+                  <span class="reaction-count">
+                    <img src="./assets/images/heart-outline.svg" alt="heart" />
+                    416
+                  </span>
+                </div>
+              </div>
+              <picture class="article-illustration">
+                <img
+                  src="assets/images/work/Drowsiness_detection.jpg"
+                  alt="MacBook Pro"
+                  loading="lazy"
+                />
+              </picture>
+            </article>
+            <article class="article-box featured-article">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h3">Dog Breed Identification.</h3>
+                  <p class="article-text">
+                    Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.
+                    If supplied an image of a human, the code will identify the resembling dog breed.
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://github.com/Mohanavenkatesan/Dog-Breed-Identification/tree/main" class="link" target="_blank" rel="noopener"
+                    >Explore this project</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                      loading="lazy"
+                    />
+                    47
+                  </span>
+                </div>
+              </div>
+              <picture class="article-illustration">
+                <img
+                  src="assets/images/work/Dog_breed_identification.jpg"
+                  alt="Dog breed"
+                  loading="lazy"
+                />
+              </picture>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+                <img src="assets/images/skills/C.png" alt="CSS" class="skills-img" loading="lazy" title="C">
+                <img src="assets/images/skills/C++.png" alt="CSS" class="skills-img" loading="lazy" title="C++">
+                <img src="assets/images/skills/DSA.png" alt="CSS" class="skills-img" loading="lazy" title="DSA">
+                <img src="assets/images/skills/CSharp.png" alt="CSS" class="skills-img" loading="lazy" title="C#">
+                <img src="assets/images/skills/Asp.net.png" alt="CSS" class="skills-img" loading="lazy" title="ASP .NET">
+                <img src="assets/images/skills/Python.png" alt="CSS" class="skills-img" loading="lazy" title="Python">
+                <img src="assets/images/skills/html.png" alt="CSS" class="skills-img" loading="lazy" title="HTML">
+                <img src="assets/images/skills/CSS.png" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+                <img src="assets/images/skills/JS.png" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+                <img src="assets/images/skills/nodejs.png" alt="CSS" class="skills-img" loading="lazy" title="Node-js">
+                <img src="assets/images/skills/react.webp" alt="React" class="skills-img" loading="lazy" title="React">
+                <img src="assets/images/skills/SQL.png" alt="React" class="skills-img" loading="lazy" title="SQL">
+                <img src="assets/images/skills/Oracle sql.png" alt="React" class="skills-img" loading="lazy" title="Oracle Sql">
+                <img src="assets/images/skills/VS.png" alt="React" class="skills-img" loading="lazy" title="Visual Studio">
+                <img src="assets/images/skills/Visual_studio_code_editor.png" alt="React" class="skills-img" loading="lazy" title="Visual Studio Code">
+                <img src="assets/images/skills/powerautomate.jfif" alt="CSS" class="skills-img" loading="lazy" title="PowerAutomate">
+                <img src="assets/images/skills/jupyter notebook.png" alt="CSS" class="skills-img" loading="lazy" title="Jupyter Notebook">
+                <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
+                 
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Please comment this component if you're not available for hire -->
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                As a software engineer, I construct web interfaces and design
+                systems with a special love for accessibility and the
+                performance. I tend to code things from scratch and enjoy
+                bringing ideas to life.
+              </p>
+              <p class="contact-text">
+                I'm also having experience in Robotic Process Automation tools to create RPA Bots as well.
+              </p>
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/Mohanavenkatesan" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/mohanavenkatesan" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Twitter" href="https://github.com/Mohanavenkatesan" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/twitter.svg"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2024</span> - Template designed & developed by <a target="_blank" rel="noopener" href="https://github.com/Mohanavenkatesan">Mohanavenkatesan.</a>
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
